@@ -1,12 +1,12 @@
 FROM alpine:3.9
 
-ENV JAVA_HOME /opt/openjdk-11
+ENV JAVA_HOME /opt/openjdk-12
 ENV PATH $JAVA_HOME/bin:$PATH
 
 # https://jdk.java.net/
-ENV JAVA_VERSION 11.0.3
-ENV JAVA_URL https://cdn.azul.com/zulu/bin/zulu11.31.11-ca-jdk11.0.3-linux_musl_x64.tar.gz
-ENV JAVA_SHA256 b80079a77e3be7bedaab67cb4005b51da429fc779cbbdd369a36ae1356d73273
+ENV JAVA_VERSION 12.0.1
+ENV JAVA_URL https://cdn.azul.com/zulu/bin/zulu12.2.3-ca-jdk12.0.1-linux_musl_x64.tar.gz
+ENV JAVA_SHA256 a7870875973fa3168c7b1c254f10d838ef50b1a577d069439538b75c8f0f54cd
 
 RUN set -eux; \
 	\
