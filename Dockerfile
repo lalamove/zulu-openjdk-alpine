@@ -4,9 +4,9 @@ ENV JAVA_HOME /opt/openjdk-11
 ENV PATH $JAVA_HOME/bin:$PATH
 
 # https://jdk.java.net/
-ENV JAVA_VERSION 11.0.2
-ENV JAVA_URL https://cdn.azul.com/zulu/bin/zulu11.29.11-ca-jdk11.0.2-linux_musl_x64.tar.gz
-ENV JAVA_SHA256 23e40024dd7474713121c07f71b4709ad6ef7ad90bcdbe8fc7ef58b558453679
+ENV JAVA_VERSION 11.0.3
+ENV JAVA_URL https://cdn.azul.com/zulu/bin/zulu11.31.11-ca-jdk11.0.3-linux_musl_x64.tar.gz
+ENV JAVA_SHA256 b80079a77e3be7bedaab67cb4005b51da429fc779cbbdd369a36ae1356d73273
 
 RUN set -eux; \
 	\
